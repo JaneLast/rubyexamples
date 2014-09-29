@@ -5,6 +5,4 @@ def string_change (input)
 end
 
 puts 'Please enter a word'
-input = gets.chomp
-
-string_change (input)
+puts string_change gets.chomp
