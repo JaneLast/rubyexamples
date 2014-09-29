@@ -1,4 +1,5 @@
 require 'date'
+require 'pry'
 details = {}
 puts 'Please enter your name'
 details[:name] = gets.chomp.capitalize
