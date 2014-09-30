@@ -22,8 +22,19 @@ class Person
   def sleep
     'I am Sleeping'
   end
- 
+end
+
+class Baby < Person
+  attr_accessor :smells
+  def cry
+    if @smells
+    ";-;"
+    else
+      "^_^"
+    end
+  end
+end
 binding.pry
   
-end
+
 
